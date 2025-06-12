@@ -94,9 +94,10 @@
         .card .circle .logo{
             position: relative;
             width: 250px;
+            height: 250px;
+            object-fit: cover;
             transition: 0.5s;
             transition-delay: 0.5s;
-            
         }
         .card:hover .circle .logo{
             transform: scale(0);
@@ -110,6 +111,7 @@
             left: 50%;
             transform: translate(-50%,-50%) scale(0) rotate(315deg);
             height: 300px;
+            
             transition: 0.5s ease-in-out;
             opacity: 0;
         }
@@ -119,7 +121,7 @@
             top: 45%;
             left: 77%;
             height: 500px;
-            opacity: 0;
+            
         }
         .card .content{
             position:absolute;
